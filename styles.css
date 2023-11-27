@@ -1,17 +1,40 @@
+:root{
+  --txtCabSize: 1.5vw;
+}
 * {
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
 }
 
-#octocat {
+body {
+  background-color: #E3D6C9;
+}
+
+/*#octocat {
   display: block;
   width:384px;
   margin: 50px auto;
+}*/
+
+div.cabecera {
+  position: absolute;
+  height: 16vw;
+  width: 100%;
+  background: #FBA01D;
+}
+div.text-cabecera{
+  position: absolute;
+  width: 40%;
+  height: var(--txtCabSize);
+  margin-left: 30%;
+  /*margin-right: 30%;*/
+  margin-top: 8vw;
+  background: lightblue;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+h4.cabecera {
+  display: inline-block;
+  font-size: var(--txtCabSize);
+  background:white;
 }
